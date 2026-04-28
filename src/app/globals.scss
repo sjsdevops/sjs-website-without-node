@@ -1,0 +1,410 @@
+@forward '../../public/assets/css/bootstrap.css';
+@forward "slick-carousel/slick/slick.css";
+@forward '../../public/assets/scss/main.scss';
+
+// Global Utility Overrides
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .pt-120 {
+    padding-top: 80px !important;
+  }
+
+  .pb-120 {
+    padding-bottom: 80px !important;
+  }
+
+  .pt-100 {
+    padding-top: 60px !important;
+  }
+
+  .pb-100 {
+    padding-bottom: 60px !important;
+  }
+
+  .mb-100 {
+    margin-bottom: 60px !important;
+  }
+
+  .mb-80 {
+    margin-bottom: 40px !important;
+  }
+}
+
+/* Luxury Editorial Spacing */
+.pt-150 { padding-top: 150px !important; }
+.pb-150 { padding-bottom: 150px !important; }
+.pt-120 { padding-top: 120px !important; }
+.pb-120 { padding-bottom: 120px !important; }
+.pt-100 { padding-top: 100px !important; }
+.pb-100 { padding-bottom: 100px !important; }
+
+@media (max-width: 992px) {
+    .pt-150, .pt-120, .pt-100 { padding-top: 80px !important; }
+    .pb-150, .pb-120, .pb-100 { padding-bottom: 80px !important; }
+}
+
+.table-responsive {
+  border: none !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Better Table styling
+.table {
+  th {
+    vertical-align: middle;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+// Video modal style 
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-modal-container {
+  width: 90%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.video-modal-iframe {
+  width: 100%;
+  height: 70vh;
+  min-height: 500px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-modal-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  color: white;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video-modal-close:hover {
+  transform: scale(1.2);
+}
+
+/* Click outside to close */
+.video-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 16px;
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .image {
+    max-width: 100%;
+    margin-bottom: 32px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .text {
+    text-align: center;
+    max-width: 650px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6D7081;
+  }
+}
+
+// Force single line menu across all laptops/desktops
+@media (min-width: 1200px) {
+  .tp-main-menu-content>ul {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .tp-main-menu-content>ul>li {
+    margin: 0 12px !important; // Drastically reduce margin to prevent wrapping
+  }
+
+  .tp-main-menu-content>ul>li>a {
+    font-size: 15px !important; // Slightly smaller font to ensure fit
+    white-space: nowrap !important; // Prevent text from wrapping inside the link
+  }
+
+  // Additional reduction for very tight 1200-1400px screens
+  @media (max-width: 1400px) {
+    .tp-main-menu-content>ul>li {
+      margin: 0 8px !important;
+    }
+
+    .tp-main-menu-content>ul>li>a {
+      font-size: 14px !important;
+    }
+
+    .tp-header-logo-1 h2 {
+      font-size: 1.2rem !important;
+    }
+  }
+}
+
+// Inverted Header (Inner Pages & New Light Hero)
+.tp-header-inner {
+  border-bottom: 1px solid #f1f4f8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+
+  .main-menu>nav>ul>li>a {
+    color: #1A3C6E !important;
+    font-weight: 600 !important;
+
+    &:hover {
+      color: #F5A623 !important;
+    }
+
+    &::after {
+      color: #1A3C6E !important;
+    }
+  }
+
+  svg path {
+    stroke: #1A3C6E;
+  }
+
+  .tp-header-bar button,
+  .tp-header-serach button {
+    color: #1A3C6E !important;
+
+    i,
+    svg,
+    path {
+      fill: #1A3C6E !important;
+      color: #1A3C6E !important;
+    }
+  }
+
+  // High Visibility Solid Button for Admissions
+  .tp-header-btn a {
+    display: inline-block !important;
+    padding: 10px 25px !important; // Slightly more compact
+    background-color: #1A3C6E !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important; // Fixed 6s typo
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    border: none !important;
+
+    &:hover {
+      background-color: #F5A623 !important;
+      color: #ffffff !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 10px 20px rgba(26, 60, 110, 0.2) !important;
+    }
+  }
+}
+
+/* Custom App Download Buttons for Footer */
+.app-download-btn {
+  background-color: #111;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: #F5A623;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+}
+
+/* Admission Marquee Styles */
+.admission-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  background-color: #1A3C6E;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 40px;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 90s linear infinite;
+
+  span {
+    padding: 0 50px;
+
+    strong {
+      color: #F5A623;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.tp-header-top.theme-bg {
+  padding: 0 !important;
+}
+
+/* Premium Mobile Menu Button */
+.offcanvas-open-btn {
+  width: 54px !important;
+  height: 54px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #1A3C6E !important;
+  color: #ffffff !important;
+  border-radius: 50% !important;
+  border: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 5px 15px rgba(26, 60, 110, 0.3) !important;
+  padding: 0 !important;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #F5A623 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(245, 166, 35, 0.4) !important;
+  }
+
+  svg {
+    width: 28px !important;
+    height: auto !important;
+    display: block !important;
+    
+    path {
+      stroke: #ffffff !important;
+      stroke-width: 3px !important;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* Ensure visibility on transparent header */
+.tp-header-transparent .offcanvas-open-btn {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+
+  &:hover {
+    background-color: #F5A623 !important;
+    border-color: #F5A623 !important;
+  }
+}
+
+/* Offcanvas Social & Store Icons */
+.offcanvas-social ul li a i {
+  font-size: 18px;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.offcanvas-social ul li a:hover i {
+  color: var(--tp-theme-primary);
+}
+
+/* Visibility on Sticky Header (Scroll) */
+.tp-header-sticky .offcanvas-open-btn {
+  background-color: #1A3C6E !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Rounded Logo */
+.tp-header-logo img {
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+/* Footer Legal Links */
+.tp-footer-legal-links {
+  font-size: 13px;
+  color: #888;
+  
+  a {
+    color: inherit;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: #1A3C6E;
+    }
+  }
+  
+  span {
+    color: #ccc;
+  }
+}
+
+

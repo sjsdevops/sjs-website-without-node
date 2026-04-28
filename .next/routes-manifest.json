@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/about/leadership",
+      "regex": "^/about/leadership(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/leadership(?:/)?$"
+    },
+    {
+      "page": "/about/mission-vision",
+      "regex": "^/about/mission\\-vision(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/mission\\-vision(?:/)?$"
+    },
+    {
+      "page": "/academics",
+      "regex": "^/academics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/academics(?:/)?$"
+    },
+    {
+      "page": "/admissions",
+      "regex": "^/admissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admissions(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/facilities",
+      "regex": "^/facilities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/facilities(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
+      "page": "/mandatory-disclosure",
+      "regex": "^/mandatory\\-disclosure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mandatory\\-disclosure(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/why-choose-us",
+      "regex": "^/why\\-choose\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/why\\-choose\\-us(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

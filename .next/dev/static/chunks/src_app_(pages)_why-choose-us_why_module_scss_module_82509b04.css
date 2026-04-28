@@ -1,0 +1,187 @@
+/* [project]/src/app/(pages)/why-choose-us/why.module.scss.module.css [app-client] (css) */
+.why-module-scss-module__VdwkoW__editorialWhy {
+  background-color: #fff;
+}
+
+.why-module-scss-module__VdwkoW__editorialLabel {
+  color: #1a3c6e;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f5a623;
+  margin-bottom: 24px;
+  padding-bottom: 6px;
+  font-size: .85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.why-module-scss-module__VdwkoW__editorialTitle {
+  color: #111;
+  letter-spacing: -1.5px;
+  margin-bottom: 30px;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.why-module-scss-module__VdwkoW__editorialTitle strong {
+  color: #1a3c6e;
+  font-weight: 700;
+}
+
+.why-module-scss-module__VdwkoW__editorialLead {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.why-module-scss-module__VdwkoW__benefitSection {
+  background-color: #f8fbff;
+  padding: 120px 0;
+}
+
+.why-module-scss-module__VdwkoW__benefitGrid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+  display: grid;
+}
+
+.why-module-scss-module__VdwkoW__benefitCard {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #eef1f6;
+  border-radius: 0;
+  height: 100%;
+  padding: 60px 40px;
+  transition: all .4s;
+}
+
+.why-module-scss-module__VdwkoW__benefitCard:hover {
+  border-color: #1a3c6e;
+  transform: translateY(-5px);
+  box-shadow: 0 30px 60px #1a3c6e0d;
+}
+
+.why-module-scss-module__VdwkoW__iconBox {
+  color: #1a3c6e;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 25px;
+}
+
+.why-module-scss-module__VdwkoW__iconBox svg {
+  stroke-width: 1.2px;
+  stroke: currentColor;
+  fill: none;
+  width: 100%;
+  height: 100%;
+}
+
+.why-module-scss-module__VdwkoW__benefitTitle {
+  color: #1a3c6e;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.why-module-scss-module__VdwkoW__benefitText {
+  color: #666;
+  font-size: .95rem;
+  line-height: 1.8;
+}
+
+.why-module-scss-module__VdwkoW__highlightSection {
+  border-top: 1px solid #f1f4f8;
+  padding: 120px 0;
+}
+
+.why-module-scss-module__VdwkoW__imageWrap {
+  background-color: #f8f9fb;
+  padding: 20px;
+}
+
+.why-module-scss-module__VdwkoW__highlightContent {
+  padding-left: 60px;
+}
+
+.why-module-scss-module__VdwkoW__highlightContent h2 {
+  color: #1a3c6e;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.why-module-scss-module__VdwkoW__highlightContent p {
+  color: #444;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.why-module-scss-module__VdwkoW__reasonsGrid {
+  border: 1px solid #eef1f6;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 0;
+  margin-top: 80px;
+  display: grid;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard {
+  border: 1px solid #eef1f6;
+  padding: 80px 50px;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__dark {
+  color: #fff;
+  background-color: #1a3c6e;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__dark h4 {
+  color: #f5a623;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__dark p {
+  color: #fffc;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__light {
+  color: #1a3c6e;
+  background-color: #fff;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__light h4 {
+  color: #1a3c6e;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard.why-module-scss-module__VdwkoW__light p {
+  color: #555;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard h4 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.why-module-scss-module__VdwkoW__reasonCard p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 991px) {
+  .why-module-scss-module__VdwkoW__highlightContent {
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .why-module-scss-module__VdwkoW__highlightContent h2 {
+    font-size: 2.2rem;
+  }
+
+  .why-module-scss-module__VdwkoW__reasonCard {
+    padding: 60px 30px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_why-choose-us_why_module_scss_module_82509b04.css.map*/

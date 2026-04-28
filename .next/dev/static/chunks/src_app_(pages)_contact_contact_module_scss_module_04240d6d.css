@@ -1,0 +1,185 @@
+/* [project]/src/app/(pages)/contact/contact.module.scss.module.css [app-client] (css) */
+.contact-module-scss-module__lJ65cG__editorialContact {
+  background-color: #fff;
+}
+
+.contact-module-scss-module__lJ65cG__heroSection {
+  background-color: #fff;
+  border-bottom: 1px solid #f1f4f8;
+}
+
+.contact-module-scss-module__lJ65cG__editorialLabel {
+  color: #1a3c6e;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f5a623;
+  margin-bottom: 24px;
+  padding-bottom: 6px;
+  font-size: .85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.contact-module-scss-module__lJ65cG__editorialTitle {
+  color: #111;
+  letter-spacing: -1.5px;
+  margin-bottom: 30px;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.contact-module-scss-module__lJ65cG__editorialTitle strong {
+  color: #1a3c6e;
+  font-weight: 700;
+}
+
+.contact-module-scss-module__lJ65cG__editorialSubtitle {
+  color: #555;
+  max-width: 700px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.contact-module-scss-module__lJ65cG__infoSection {
+  background-color: #f6f8fb;
+  border-bottom: 1px solid #eef1f6;
+}
+
+.contact-module-scss-module__lJ65cG__infoCard {
+  background-color: #fff;
+  border: 1px solid #eaedf3;
+  height: 100%;
+  padding: 50px 40px;
+  transition: all .3s;
+}
+
+.contact-module-scss-module__lJ65cG__infoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px #1a3c6e0d;
+}
+
+.contact-module-scss-module__lJ65cG__iconWrapper {
+  color: #1a3c6e;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.contact-module-scss-module__lJ65cG__iconWrapper svg {
+  stroke-width: 1.5px;
+  stroke: currentColor;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-module-scss-module__lJ65cG__infoTitle {
+  color: #1a3c6e;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-module-scss-module__lJ65cG__infoText {
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.contact-module-scss-module__lJ65cG__infoText strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.contact-module-scss-module__lJ65cG__formMapSection {
+  background-color: #fff;
+}
+
+.contact-module-scss-module__lJ65cG__formWrapper {
+  background-color: #fff;
+  border: 1px solid #eaedf3;
+  padding: 60px 50px;
+}
+
+.contact-module-scss-module__lJ65cG__formHeader {
+  color: #1a3c6e;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.contact-module-scss-module__lJ65cG__editorialInput {
+  color: #333;
+  background-color: #fcfdfd;
+  border: 1px solid #e1e5eb;
+  border-radius: 0;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1rem;
+  transition: all .3s;
+}
+
+.contact-module-scss-module__lJ65cG__editorialInput:focus {
+  background-color: #fff;
+  border-color: #1a3c6e;
+  outline: none;
+  box-shadow: 0 0 0 4px #1a3c6e0d;
+}
+
+.contact-module-scss-module__lJ65cG__editorialBtn {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #1a3c6e;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 16px 40px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: all .3s;
+  color: #fff !important;
+}
+
+.contact-module-scss-module__lJ65cG__editorialBtn:hover {
+  background-color: #f5a623;
+  transform: translateY(-2px);
+}
+
+.contact-module-scss-module__lJ65cG__mapWrapper {
+  background-color: #f1f4f8;
+  border: 1px solid #eaedf3;
+  height: 100%;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-module-scss-module__lJ65cG__mapWrapper iframe {
+  filter: grayscale() contrast(1.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 991px) {
+  .contact-module-scss-module__lJ65cG__editorialTitle {
+    font-size: 3rem;
+  }
+
+  .contact-module-scss-module__lJ65cG__formWrapper {
+    padding: 40px 30px;
+  }
+
+  .contact-module-scss-module__lJ65cG__mapWrapper {
+    min-height: 400px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_contact_contact_module_scss_module_04240d6d.css.map*/

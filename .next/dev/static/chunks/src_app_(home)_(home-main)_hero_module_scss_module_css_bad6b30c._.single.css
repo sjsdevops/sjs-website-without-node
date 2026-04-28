@@ -1,0 +1,199 @@
+/* [project]/src/app/(home)/(home-main)/hero.module.scss.module.css [app-client] (css) */
+.hero-module-scss-module__a11f4G__heroMain {
+  background-color: #000;
+  align-items: center;
+  height: 95vh;
+  margin-bottom: 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-module-scss-module__a11f4G__heroSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-module-scss-module__a11f4G__slideItem {
+  align-items: flex-start;
+  height: 100%;
+  padding-top: 180px;
+  display: flex;
+  position: relative;
+}
+
+.hero-module-scss-module__a11f4G__videoBackground {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-module-scss-module__a11f4G__actualVideo {
+  object-fit: cover;
+  width: 125%;
+  height: 100%;
+  animation: 30s linear infinite alternate hero-module-scss-module__a11f4G__cinematicZoom;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes hero-module-scss-module__a11f4G__cinematicZoom {
+  from {
+    transform: translate(-50%, -50%)scale(1);
+  }
+
+  to {
+    transform: translate(-50%, -50%)scale(1.15);
+  }
+}
+
+.hero-module-scss-module__a11f4G__videoOverlay {
+  z-index: 2;
+  background: linear-gradient(90deg, #1a3c6ebf 0%, #0000004d 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-module-scss-module__a11f4G__editorialContainer {
+  z-index: 10;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-module-scss-module__a11f4G__heroContent {
+  text-align: left;
+  max-width: 850px;
+}
+
+.hero-module-scss-module__a11f4G__labelLine {
+  color: #f5a623;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 2px 4px #0000004d;
+  margin-bottom: 25px;
+  font-size: .9rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.hero-module-scss-module__a11f4G__mainTitle {
+  color: #fff;
+  letter-spacing: -2.5px;
+  text-shadow: 0 4px 15px #0006;
+  margin-bottom: 30px;
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.hero-module-scss-module__a11f4G__mainTitle span {
+  color: #f5a623;
+  display: block;
+}
+
+.hero-module-scss-module__a11f4G__description {
+  color: #fff;
+  text-shadow: 0 2px 8px #0000004d;
+  opacity: .95;
+  max-width: 600px;
+  margin-bottom: 50px;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.hero-module-scss-module__a11f4G__heroButtons {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 1400px) {
+  .hero-module-scss-module__a11f4G__mainTitle {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hero-module-scss-module__a11f4G__mainTitle {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-module-scss-module__a11f4G__heroMain {
+    height: 80vh;
+  }
+
+  .hero-module-scss-module__a11f4G__heroContent {
+    text-align: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .hero-module-scss-module__a11f4G__mainTitle {
+    margin-bottom: 20px;
+    font-size: 3.2rem;
+  }
+
+  .hero-module-scss-module__a11f4G__description {
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.15rem;
+  }
+
+  .hero-module-scss-module__a11f4G__heroButtons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-module-scss-module__a11f4G__mainTitle {
+    font-size: 2.7rem;
+  }
+
+  .hero-module-scss-module__a11f4G__heroButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-module-scss-module__a11f4G__heroButtons .hero-module-scss-module__a11f4G__tp-btn {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.custom-pagination {
+  z-index: 20;
+  gap: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  border-radius: 2px;
+  width: 35px;
+  height: 4px;
+  transition: all .3s;
+  background: #ffffff59 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 55px;
+  background: #f5a623 !important;
+}
+
+/*# sourceMappingURL=src_app_%28home%29_%28home-main%29_hero_module_scss_module_css_bad6b30c._.single.css.map*/

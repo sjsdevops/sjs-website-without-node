@@ -1,0 +1,104 @@
+/* Minimalist Editorial SCSS for Academics */
+.editorialAcademics {
+    background-color: #ffffff;
+}
+
+.heroSection {
+    background-color: #ffffff;
+}
+
+.introContent {
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #444;
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto 0;
+    font-weight: 400;
+}
+
+/* Feature Rows like Facilities */
+.stageSection {
+    padding: 0;
+}
+
+.stageRow {
+    border-top: 1px solid #f1f4f8;
+    
+    &:last-child {
+        border-bottom: 1px solid #f1f4f8;
+    }
+}
+
+.stageImage {
+    padding: 20px;
+    background-color: #f8f9fb;
+}
+
+.stageContent {
+    padding: 80px 60px;
+    
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #1A3C6E;
+        margin-bottom: 25px;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #555;
+    }
+}
+
+/* Results Table */
+.resultsSection {
+    background-color: #f8fbff;
+    padding: 120px 0;
+}
+
+.tableWrapper {
+    background-color: #ffffff;
+    box-shadow: 0 40px 80px rgba(26, 60, 110, 0.05);
+    border: 1px solid #eef1f6;
+    overflow: hidden;
+}
+
+.editorialTable {
+    width: 100%;
+    border-collapse: collapse;
+    
+    th {
+        background-color: #1A3C6E;
+        color: #ffffff;
+        padding: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+    }
+    
+    td {
+        padding: 30px;
+        border-bottom: 1px solid #f1f4f8;
+        font-size: 1.1rem;
+        color: #333;
+    }
+}
+
+.resultBadge {
+    display: inline-block;
+    background-color: #F5A623;
+    color: #1A3C6E;
+    padding: 8px 24px;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 991px) {
+    .stageContent {
+        padding: 40px 30px;
+        h3 { font-size: 1.8rem; }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "/(home)/(home-main)/page": "app/(home)/(home-main)/page.js",
+  "/(pages)/about/leadership/page": "app/(pages)/about/leadership/page.js",
+  "/(pages)/about/mission-vision/page": "app/(pages)/about/mission-vision/page.js",
+  "/(pages)/about/page": "app/(pages)/about/page.js",
+  "/(pages)/academics/page": "app/(pages)/academics/page.js",
+  "/(pages)/contact/page": "app/(pages)/contact/page.js",
+  "/(pages)/facilities/page": "app/(pages)/facilities/page.js",
+  "/(pages)/gallery/page": "app/(pages)/gallery/page.js",
+  "/(pages)/legal/child-protection/page": "app/(pages)/legal/child-protection/page.js",
+  "/(pages)/legal/disclaimer/page": "app/(pages)/legal/disclaimer/page.js",
+  "/(pages)/legal/privacy-policy/page": "app/(pages)/legal/privacy-policy/page.js",
+  "/(pages)/legal/refund-policy/page": "app/(pages)/legal/refund-policy/page.js",
+  "/(pages)/legal/terms/page": "app/(pages)/legal/terms/page.js",
+  "/(pages)/online-application/page": "app/(pages)/online-application/page.js",
+  "/(pages)/why-choose-us/page": "app/(pages)/why-choose-us/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}

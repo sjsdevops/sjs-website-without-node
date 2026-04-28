@@ -1,0 +1,17 @@
+{
+  "/(home)/(home-main)/page": "/",
+  "/(pages)/about/leadership/page": "/about/leadership",
+  "/(pages)/about/mission-vision/page": "/about/mission-vision",
+  "/(pages)/about/page": "/about",
+  "/(pages)/academics/page": "/academics",
+  "/(pages)/admissions/page": "/admissions",
+  "/(pages)/facilities/page": "/facilities",
+  "/(pages)/gallery/page": "/gallery",
+  "/(pages)/mandatory-disclosure/page": "/mandatory-disclosure",
+  "/(pages)/privacy-policy/page": "/privacy-policy",
+  "/(pages)/why-choose-us/page": "/why-choose-us",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico"
+}

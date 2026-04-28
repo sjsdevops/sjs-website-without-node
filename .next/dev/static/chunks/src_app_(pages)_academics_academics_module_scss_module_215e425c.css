@@ -1,0 +1,103 @@
+/* [project]/src/app/(pages)/academics/academics.module.scss.module.css [app-client] (css) */
+.academics-module-scss-module__gu5bta__editorialAcademics, .academics-module-scss-module__gu5bta__heroSection {
+  background-color: #fff;
+}
+
+.academics-module-scss-module__gu5bta__introContent {
+  color: #444;
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.academics-module-scss-module__gu5bta__stageSection {
+  padding: 0;
+}
+
+.academics-module-scss-module__gu5bta__stageRow {
+  border-top: 1px solid #f1f4f8;
+}
+
+.academics-module-scss-module__gu5bta__stageRow:last-child {
+  border-bottom: 1px solid #f1f4f8;
+}
+
+.academics-module-scss-module__gu5bta__stageImage {
+  background-color: #f8f9fb;
+  padding: 20px;
+}
+
+.academics-module-scss-module__gu5bta__stageContent {
+  padding: 80px 60px;
+}
+
+.academics-module-scss-module__gu5bta__stageContent h3 {
+  color: #1a3c6e;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.academics-module-scss-module__gu5bta__stageContent p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.academics-module-scss-module__gu5bta__resultsSection {
+  background-color: #f8fbff;
+  padding: 120px 0;
+}
+
+.academics-module-scss-module__gu5bta__tableWrapper {
+  background-color: #fff;
+  border: 1px solid #eef1f6;
+  overflow: hidden;
+  box-shadow: 0 40px 80px #1a3c6e0d;
+}
+
+.academics-module-scss-module__gu5bta__editorialTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.academics-module-scss-module__gu5bta__editorialTable th {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #1a3c6e;
+  padding: 30px;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.academics-module-scss-module__gu5bta__editorialTable td {
+  color: #333;
+  border-bottom: 1px solid #f1f4f8;
+  padding: 30px;
+  font-size: 1.1rem;
+}
+
+.academics-module-scss-module__gu5bta__resultBadge {
+  color: #1a3c6e;
+  background-color: #f5a623;
+  padding: 8px 24px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  .academics-module-scss-module__gu5bta__stageContent {
+    padding: 40px 30px;
+  }
+
+  .academics-module-scss-module__gu5bta__stageContent h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_academics_academics_module_scss_module_215e425c.css.map*/

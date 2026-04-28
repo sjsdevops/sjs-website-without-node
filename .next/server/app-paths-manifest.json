@@ -1,0 +1,17 @@
+{
+  "/(home)/(home-main)/page": "app/(home)/(home-main)/page.js",
+  "/(pages)/about/leadership/page": "app/(pages)/about/leadership/page.js",
+  "/(pages)/about/mission-vision/page": "app/(pages)/about/mission-vision/page.js",
+  "/(pages)/about/page": "app/(pages)/about/page.js",
+  "/(pages)/academics/page": "app/(pages)/academics/page.js",
+  "/(pages)/admissions/page": "app/(pages)/admissions/page.js",
+  "/(pages)/facilities/page": "app/(pages)/facilities/page.js",
+  "/(pages)/gallery/page": "app/(pages)/gallery/page.js",
+  "/(pages)/mandatory-disclosure/page": "app/(pages)/mandatory-disclosure/page.js",
+  "/(pages)/privacy-policy/page": "app/(pages)/privacy-policy/page.js",
+  "/(pages)/why-choose-us/page": "app/(pages)/why-choose-us/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

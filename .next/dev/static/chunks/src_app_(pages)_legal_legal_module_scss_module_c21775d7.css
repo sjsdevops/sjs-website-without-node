@@ -1,0 +1,126 @@
+/* [project]/src/app/(pages)/legal/legal.module.scss.module.css [app-client] (css) */
+:root {
+  --tp-ff-body: "Outfit", sans-serif;
+  --tp-ff-heading: "Outfit", sans-serif;
+  --tp-ff-p: "Outfit", sans-serif;
+  --tp-ff-primary: "Jost", sans-serif;
+  --tp-ff-secondary: "Crimson Pro", serif;
+  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  --tp-common-white: #fff;
+  --tp-common-black: #000;
+  --tp-common-black-1: #010f1c;
+  --tp-grey-1: #f6f4ee;
+  --tp-grey-2: #84807b;
+  --tp-grey-3: #55585b;
+  --tp-grey-4: #efede7;
+  --tp-grey-5: #636366;
+  --tp-grey-6: #4f5158;
+  --tp-red-1: #af0e2e;
+  --tp-red-2: #c41230;
+  --tp-red-3: #b70a14;
+  --tp-blue-1: #f1f3f9;
+  --tp-blue-2: #1a3c6e;
+  --tp-heading-primary: #161613;
+  --tp-heading-2: #031f42;
+  --tp-heading-3: #0a1d3a;
+  --tp-heading-4: #161821;
+  --tp-text-body: #2d2d2d;
+  --tp-theme-primary: #1a3c6e;
+  --tp-theme-secondary: #f5a623;
+  --tp-theme-3: #ff7162;
+  --tp-theme-4: #b1040e;
+  --tp-theme-5: #f0ec51;
+  --tp-theme-6: #1e1e2f;
+  --tp-theme-7: #4661fd;
+  --tp-theme-8: #006b61;
+  --tp-dashboard-primary: #556df5;
+  --tp-dashboard-secondary: #5169f1;
+  --tp-dashboard-3: #5b7d55;
+  --tp-dashboard-danger: #ff4d4f;
+  --tp-dashboard-sucess: #0f9f55;
+  --tp-dashboard-warning: #f59b12;
+  --tp-dashboard-info: #5974ff;
+  --tp-border-primary: #eaebed;
+  --tp-border-2: #e4e2dc;
+}
+
+.legal-module-scss-module__TSI3Fq__legalPage {
+  background-color: #fff;
+  padding-bottom: 120px;
+}
+
+.legal-module-scss-module__TSI3Fq__contentWrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .legal-module-scss-module__TSI3Fq__contentWrap {
+    padding: 40px 20px;
+  }
+}
+
+.legal-module-scss-module__TSI3Fq__lastUpdated {
+  color: #888;
+  margin-bottom: 40px;
+  font-size: .9rem;
+  font-style: italic;
+  display: block;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent h2 {
+  color: #1a3c6e;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent h2:first-child {
+  margin-top: 0;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent h3 {
+  color: #333;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.legal-module-scss-module__TSI3Fq__policyContent ul li {
+  color: #555;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  list-style: outside;
+}
+
+.legal-module-scss-module__TSI3Fq__highlightBox {
+  background-color: #f8fbff;
+  border-left: 4px solid #1a3c6e;
+  border-radius: 0 8px 8px 0;
+  margin: 40px 0;
+  padding: 30px;
+}
+
+.legal-module-scss-module__TSI3Fq__highlightBox p {
+  color: #1a3c6e;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_legal_legal_module_scss_module_c21775d7.css.map*/

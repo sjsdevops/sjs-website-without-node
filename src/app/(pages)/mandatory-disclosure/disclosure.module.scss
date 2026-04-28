@@ -1,0 +1,88 @@
+/* Minimalist Editorial SCSS for Disclosures */
+.editorialDisclosure {
+    background-color: #ffffff;
+}
+
+.tableContainer {
+    margin-bottom: 100px;
+}
+
+.tableTitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1A3C6E;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    &::after {
+        content: '';
+        flex-grow: 1;
+        height: 1px;
+        background-color: #eef1f6;
+    }
+}
+
+.tableWrapper {
+    border: 1px solid #eef1f6;
+    overflow: hidden;
+}
+
+.editorialTable {
+    width: 100%;
+    border-collapse: collapse;
+    
+    th {
+        background-color: #f8f9fb;
+        color: #1A3C6E;
+        padding: 20px 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        border-bottom: 1px solid #eef1f6;
+        text-align: left;
+    }
+    
+    td {
+        padding: 20px 30px;
+        border-bottom: 1px solid #eef1f6;
+        font-size: 1rem;
+        color: #444;
+    }
+    
+    tr:last-child td {
+        border-bottom: none;
+    }
+}
+
+.infraTable {
+    width: 100%;
+    border: 1px solid #eef1f6;
+    
+    th {
+        width: 30%;
+        background-color: #f8f9fb;
+        padding: 25px 30px;
+        color: #1A3C6E;
+        font-weight: 700;
+        border-right: 1px solid #eef1f6;
+        border-bottom: 1px solid #eef1f6;
+    }
+    
+    td {
+        padding: 25px 30px;
+        color: #444;
+        border-bottom: 1px solid #eef1f6;
+    }
+    
+    tr:last-child th, tr:last-child td {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .tableTitle { font-size: 1.5rem; }
+    .editorialTable td, .editorialTable th { padding: 15px 20px; }
+}

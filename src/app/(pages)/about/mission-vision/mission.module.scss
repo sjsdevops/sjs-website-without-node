@@ -1,0 +1,208 @@
+@use "../../../../../public/assets/scss/utils" as *;
+
+.editorialMission {
+    background-color: #ffffff;
+    background-image: radial-gradient(#1a3c6e05 1px, transparent 1px);
+    background-size: 40px 40px;
+    overflow: hidden;
+}
+
+.splitSection {
+    padding: 120px 0;
+    
+    @media #{$md, $xs} {
+        padding: 80px 0;
+    }
+}
+
+.missionCard, .visionCard {
+    padding: 60px;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+    @media #{$lg} {
+        padding: 40px;
+    }
+    
+    @media #{$md, $xs} {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 30px 60px rgba(26, 60, 110, 0.1);
+    }
+}
+
+.missionCard {
+    background-color: #1A3C6E;
+    color: #ffffff;
+    
+    .icon {
+        background: rgba(245, 166, 35, 0.1);
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        color: #F5A623;
+        font-size: 30px;
+    }
+
+    h2 {
+        color: #F5A623;
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    p {
+        font-size: 1.25rem;
+        line-height: 1.8;
+        font-weight: 300;
+        color: #ffffff !important;
+        opacity: 0.9;
+    }
+}
+
+.visionCard {
+    background-color: #f8faff;
+    border: 1px solid #e1e8f5;
+    
+    .icon {
+        background: rgba(26, 60, 110, 0.05);
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        color: #1A3C6E;
+        font-size: 30px;
+    }
+
+    h2 {
+        color: #1A3C6E;
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    p {
+        font-size: 1.25rem;
+        line-height: 1.8;
+        font-weight: 300;
+        color: #444;
+    }
+}
+
+.policySection {
+    padding: 120px 0;
+    background: linear-gradient(180deg, #ffffff 0%, #f8faff 100%);
+    
+    @media #{$md, $xs} {
+        padding: 80px 0;
+    }
+}
+
+.policyBlock {
+    background: #ffffff;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f0f3f8;
+    position: relative;
+    
+    @media #{$md, $xs} {
+        padding: 40px 25px;
+    }
+
+    &::before {
+        content: '"';
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-size: 120px;
+        color: #1A3C6E;
+        opacity: 0.05;
+        font-family: serif;
+    }
+    
+    h2 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #1A3C6E;
+        margin-bottom: 50px;
+        text-align: center;
+        position: relative;
+        
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: #F5A623;
+            border-radius: 2px;
+        }
+    }
+    
+    .content {
+        font-size: 1.2rem;
+        line-height: 2.2;
+        color: #4f5158;
+        text-align: center;
+        white-space: pre-line;
+    }
+}
+
+.decorCircle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(245, 166, 35, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+    
+    &.one { top: -100px; right: -100px; }
+    &.two { bottom: -100px; left: -100px; }
+}
+
+/* Entrance Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.missionCard {
+    animation: fadeInUp 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.visionCard {
+    opacity: 0;
+    animation: fadeInUp 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s forwards;
+}
+
+.policyBlock {
+    opacity: 0;
+    animation: fadeInUp 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s forwards;
+}

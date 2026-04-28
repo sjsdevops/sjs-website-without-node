@@ -1,0 +1,263 @@
+/* [project]/src/app/(pages)/online-application/admissions.module.scss.module.css [app-client] (css) */
+.admissions-module-scss-module__DNG7-W__marketingContainer {
+  background-color: #fafbfc;
+}
+
+.admissions-module-scss-module__DNG7-W__heroSection {
+  background: linear-gradient(135deg, #1a3c6e0d 0%, #f5a6230d 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.admissions-module-scss-module__DNG7-W__heroSection:after {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle, #1a3c6e0a 0%, #0000 60%);
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: -50%;
+  right: -20%;
+}
+
+.admissions-module-scss-module__DNG7-W__heroContent {
+  padding: 60px 0;
+}
+
+.admissions-module-scss-module__DNG7-W__badge {
+  color: #c98200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #f5a62326;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  padding: 8px 18px;
+  font-size: .9rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.admissions-module-scss-module__DNG7-W__mainTitle {
+  color: #1a3c6e;
+  margin-bottom: 24px;
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.admissions-module-scss-module__DNG7-W__mainTitle span {
+  color: #f5a623;
+}
+
+.admissions-module-scss-module__DNG7-W__subtitle {
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaPrimary {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  background: linear-gradient(135deg, #f5a623 0%, #ff8c00 100%);
+  border-radius: 50px;
+  padding: 18px 45px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #f5a6234d;
+  color: #fff !important;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaPrimary:before {
+  content: "";
+  background: linear-gradient(90deg, #0000, #ffffff4d, #0000);
+  width: 100%;
+  height: 100%;
+  transition: all .6s;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaPrimary:hover {
+  background: linear-gradient(135deg, #ff8c00 0%, #f5a623 100%);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px #f5a62373;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaPrimary:hover:before {
+  left: 100%;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaSecondary {
+  background-color: #fff;
+  border: 2px solid #1a3c6e;
+  border-radius: 50px;
+  padding: 16px 35px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: all .3s;
+  display: inline-block;
+  color: #1a3c6e !important;
+}
+
+.admissions-module-scss-module__DNG7-W__ctaSecondary:hover {
+  background-color: #1a3c6e;
+  box-shadow: 0 10px 20px #1a3c6e26;
+  color: #fff !important;
+}
+
+.admissions-module-scss-module__DNG7-W__statCard {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  height: 100%;
+  padding: 30px 20px;
+  transition: transform .3s;
+  box-shadow: 0 10px 30px #00000008;
+}
+
+.admissions-module-scss-module__DNG7-W__statCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px #1a3c6e14;
+}
+
+.admissions-module-scss-module__DNG7-W__statCard h4 {
+  color: #1a3c6e;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.admissions-module-scss-module__DNG7-W__statCard p {
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineSection {
+  background-color: #fff;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineCard {
+  z-index: 1;
+  background: #fafbfc;
+  border-radius: 24px;
+  height: 100%;
+  padding: 40px;
+  transition: all .3s;
+  position: relative;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineCard:hover {
+  background: #fff;
+  box-shadow: 0 15px 40px #0000000a;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineCard:hover .admissions-module-scss-module__DNG7-W__timelineNumber {
+  color: #fff;
+  background: #f5a623;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineNumber {
+  color: #1a3c6e;
+  background: #1a3c6e1a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: all .3s;
+  display: flex;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineTitle {
+  color: #1a3c6e;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.admissions-module-scss-module__DNG7-W__timelineDesc {
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.admissions-module-scss-module__DNG7-W__bottomCtaBanner {
+  text-align: center;
+  background: linear-gradient(135deg, #1a3c6e 0%, #0d2242 100%);
+  border-radius: 30px;
+  padding: 80px 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 50px #1a3c6e33;
+}
+
+.admissions-module-scss-module__DNG7-W__bottomCtaBanner h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.admissions-module-scss-module__DNG7-W__bottomCtaBanner p {
+  color: #fffc;
+  max-width: 600px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+  .admissions-module-scss-module__DNG7-W__mainTitle {
+    font-size: 3rem;
+  }
+
+  .admissions-module-scss-module__DNG7-W__bottomCtaBanner h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .admissions-module-scss-module__DNG7-W__mainTitle {
+    font-size: 2.2rem;
+  }
+
+  .admissions-module-scss-module__DNG7-W__subtitle {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+  }
+
+  .admissions-module-scss-module__DNG7-W__ctaPrimary {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 16px 30px;
+    font-size: 1rem;
+    display: block;
+  }
+
+  .admissions-module-scss-module__DNG7-W__ctaSecondary {
+    width: 100%;
+    display: block;
+  }
+
+  .admissions-module-scss-module__DNG7-W__bottomCtaBanner {
+    padding: 50px 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_online-application_admissions_module_scss_module_b2836eb1.css.map*/

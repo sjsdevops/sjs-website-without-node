@@ -1,0 +1,100 @@
+/* [project]/src/app/(pages)/about/leadership/leadership.module.scss.module.css [app-client] (css) */
+.leadership-module-scss-module__82mcVG__editorialLeadership {
+  background-color: #fff;
+}
+
+.leadership-module-scss-module__82mcVG__leaderRow {
+  border-bottom: 2px solid #f1f4f8;
+  padding: 100px 0;
+}
+
+.leadership-module-scss-module__82mcVG__leaderRow:last-child {
+  border-bottom: none;
+}
+
+.leadership-module-scss-module__82mcVG__imageContainer {
+  background-color: #f8f9fb;
+  padding: 20px;
+  position: relative;
+}
+
+.leadership-module-scss-module__82mcVG__imageBox {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  overflow: hidden;
+}
+
+.leadership-module-scss-module__82mcVG__imageBox img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+
+.leadership-module-scss-module__82mcVG__imageBox img:hover {
+  transform: scale(1.05);
+}
+
+.leadership-module-scss-module__82mcVG__leaderName {
+  color: #1a3c6e;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.leadership-module-scss-module__82mcVG__leaderDesignation {
+  color: #f5a623;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.leadership-module-scss-module__82mcVG__messageWrapper {
+  padding: 0 40px;
+}
+
+.leadership-module-scss-module__82mcVG__messageHeader {
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  font-size: .85rem;
+  display: block;
+}
+
+.leadership-module-scss-module__82mcVG__messageTitle {
+  color: #111;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.leadership-module-scss-module__82mcVG__messageTitle strong {
+  color: #1a3c6e;
+  font-weight: 700;
+}
+
+.leadership-module-scss-module__82mcVG__messageBody {
+  color: #444;
+  text-align: justify;
+  font-size: 1.15rem;
+  line-height: 2;
+}
+
+@media (max-width: 991px) {
+  .leadership-module-scss-module__82mcVG__messageWrapper {
+    padding: 40px 0 0;
+  }
+
+  .leadership-module-scss-module__82mcVG__messageTitle {
+    font-size: 2.2rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_about_leadership_leadership_module_scss_module_8e7ee768.css.map*/

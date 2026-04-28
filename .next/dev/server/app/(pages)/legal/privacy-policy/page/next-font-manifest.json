@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/(pages)/legal/privacy-policy/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2",
+      "static/media/81cef6a21128489e-s.p.6cf41120.woff2",
+      "static/media/115e7a2565b70400-s.p.e440a306.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

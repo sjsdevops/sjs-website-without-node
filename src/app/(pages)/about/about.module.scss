@@ -1,0 +1,93 @@
+/* Minimalist Editorial SCSS for About Page */
+.editorialAbout {
+    background-color: #ffffff;
+}
+
+.heroSection {
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f4f8;
+}
+
+.editorialLabel {
+    display: inline-block;
+    color: #1A3C6E;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #F5A623;
+    padding-bottom: 6px;
+}
+
+.editorialTitle {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    
+    strong {
+        font-weight: 700;
+        color: #1A3C6E;
+    }
+}
+
+.historyContent {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #444;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Timeline/Milestones */
+.milestoneGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0;
+    border: 1px solid #eef1f6;
+}
+
+.milestoneCard {
+    padding: 60px 40px;
+    border: 1px solid #eef1f6;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+    
+    &:hover {
+        background-color: #1A3C6E;
+        
+        .year {
+            color: #F5A623;
+        }
+        
+        .title {
+            color: #ffffff;
+        }
+    }
+}
+
+.year {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1A3C6E;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 991px) {
+    .editorialTitle {
+        font-size: 3rem;
+    }
+}

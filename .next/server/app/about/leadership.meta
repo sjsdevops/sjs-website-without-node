@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(pages)/layout,_N_T_/(pages)/about/layout,_N_T_/(pages)/about/leadership/layout,_N_T_/(pages)/about/leadership/page,_N_T_/about/leadership"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHBhZ2VzKQ/about/leadership/__PAGE__",
+    "/!KHBhZ2VzKQ/about/leadership",
+    "/!KHBhZ2VzKQ/about",
+    "/!KHBhZ2VzKQ",
+    "/_index",
+    "/_head"
+  ]
+}

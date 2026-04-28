@@ -1,0 +1,98 @@
+/* Minimalist Editorial SCSS for Leadership */
+.editorialLeadership {
+    background-color: #ffffff;
+}
+
+.leaderRow {
+    padding: 100px 0;
+    border-bottom: 2px solid #f1f4f8;
+    
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.imageContainer {
+    position: relative;
+    padding: 20px;
+    background-color: #f8f9fb;
+}
+
+.imageBox {
+    width: 100%;
+    min-height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.leaderName {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1A3C6E;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.leaderDesignation {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F5A623;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.messageWrapper {
+    padding: 0 40px;
+}
+
+.messageHeader {
+    font-size: 0.85rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.messageTitle {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #111;
+    margin-bottom: 40px;
+    
+    strong {
+        font-weight: 700;
+        color: #1A3C6E;
+    }
+}
+
+.messageBody {
+    font-size: 1.15rem;
+    line-height: 2;
+    color: #444;
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .messageWrapper {
+        padding: 40px 0 0;
+    }
+    
+    .messageTitle {
+        font-size: 2.2rem;
+    }
+}

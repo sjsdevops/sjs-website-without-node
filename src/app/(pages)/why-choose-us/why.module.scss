@@ -1,0 +1,173 @@
+.editorialWhy {
+    background-color: #ffffff;
+}
+
+.editorialLabel {
+    display: inline-block;
+    color: #1A3C6E;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #F5A623;
+    padding-bottom: 6px;
+}
+
+.editorialTitle {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    
+    strong {
+        font-weight: 700;
+        color: #1A3C6E;
+    }
+}
+
+.editorialLead {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.benefitSection {
+    background-color: #f8fbff;
+    padding: 120px 0;
+}
+
+.benefitGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.benefitCard {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    border: 1px solid #eef1f6;
+    height: 100%;
+    transition: all 0.4s ease;
+    text-align: center;
+    border-radius: 0;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 30px 60px rgba(26, 60, 110, 0.05);
+        border-color: #1A3C6E;
+    }
+}
+
+.iconBox {
+    margin-bottom: 25px;
+    color: #1A3C6E;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 25px;
+    
+    svg {
+        width: 100%;
+        height: 100%;
+        stroke-width: 1.2;
+        stroke: currentColor;
+        fill: none;
+    }
+}
+
+.benefitTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1A3C6E;
+    margin-bottom: 15px;
+}
+
+.benefitText {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Feature Split */
+.highlightSection {
+    padding: 120px 0;
+    border-top: 1px solid #f1f4f8;
+}
+
+.imageWrap {
+    background-color: #f8f9fb;
+    padding: 20px;
+}
+
+.highlightContent {
+    padding-left: 60px;
+    
+    h2 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #1A3C6E;
+        margin-bottom: 30px;
+    }
+    
+    p {
+        font-size: 1.25rem;
+        line-height: 1.8;
+        color: #444;
+    }
+}
+
+.reasonsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 0;
+    border: 1px solid #eef1f6;
+    margin-top: 80px;
+}
+
+.reasonCard {
+    padding: 80px 50px;
+    border: 1px solid #eef1f6;
+    
+    &.dark {
+        background-color: #1A3C6E;
+        color: #ffffff;
+        
+        h4 { color: #F5A623; }
+        p { color: rgba(255, 255, 255, 0.8); }
+    }
+    
+    &.light {
+        background-color: #ffffff;
+        color: #1A3C6E;
+        
+        h4 { color: #1A3C6E; }
+        p { color: #555; }
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 991px) {
+    .highlightContent {
+        padding-left: 0;
+        padding-top: 40px;
+        h2 { font-size: 2.2rem; }
+    }
+    
+    .reasonCard {
+        padding: 60px 30px;
+    }
+}

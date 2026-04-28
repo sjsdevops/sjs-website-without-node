@@ -1,0 +1,95 @@
+/* [project]/src/app/(pages)/mandatory-disclosure/disclosure.module.scss.module.css [app-client] (css) */
+.disclosure-module-scss-module__QRbs6W__editorialDisclosure {
+  background-color: #fff;
+}
+
+.disclosure-module-scss-module__QRbs6W__tableContainer {
+  margin-bottom: 100px;
+}
+
+.disclosure-module-scss-module__QRbs6W__tableTitle {
+  color: #1a3c6e;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+}
+
+.disclosure-module-scss-module__QRbs6W__tableTitle:after {
+  content: "";
+  background-color: #eef1f6;
+  flex-grow: 1;
+  height: 1px;
+}
+
+.disclosure-module-scss-module__QRbs6W__tableWrapper {
+  border: 1px solid #eef1f6;
+  overflow: hidden;
+}
+
+.disclosure-module-scss-module__QRbs6W__editorialTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.disclosure-module-scss-module__QRbs6W__editorialTable th {
+  color: #1a3c6e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  background-color: #f8f9fb;
+  border-bottom: 1px solid #eef1f6;
+  padding: 20px 30px;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.disclosure-module-scss-module__QRbs6W__editorialTable td {
+  color: #444;
+  border-bottom: 1px solid #eef1f6;
+  padding: 20px 30px;
+  font-size: 1rem;
+}
+
+.disclosure-module-scss-module__QRbs6W__editorialTable tr:last-child td {
+  border-bottom: none;
+}
+
+.disclosure-module-scss-module__QRbs6W__infraTable {
+  border: 1px solid #eef1f6;
+  width: 100%;
+}
+
+.disclosure-module-scss-module__QRbs6W__infraTable th {
+  color: #1a3c6e;
+  background-color: #f8f9fb;
+  border-bottom: 1px solid #eef1f6;
+  border-right: 1px solid #eef1f6;
+  width: 30%;
+  padding: 25px 30px;
+  font-weight: 700;
+}
+
+.disclosure-module-scss-module__QRbs6W__infraTable td {
+  color: #444;
+  border-bottom: 1px solid #eef1f6;
+  padding: 25px 30px;
+}
+
+.disclosure-module-scss-module__QRbs6W__infraTable tr:last-child th, .disclosure-module-scss-module__QRbs6W__infraTable tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 991px) {
+  .disclosure-module-scss-module__QRbs6W__tableTitle {
+    font-size: 1.5rem;
+  }
+
+  .disclosure-module-scss-module__QRbs6W__editorialTable td, .disclosure-module-scss-module__QRbs6W__editorialTable th {
+    padding: 15px 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28pages%29_mandatory-disclosure_disclosure_module_scss_module_f2031800.css.map*/
